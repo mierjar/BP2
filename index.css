@@ -28,9 +28,7 @@ header{
 }
 
 
-
 main{
-    margin-top: 4rem;
     background-color:pink;
     display: grid;
     place-items:center;
