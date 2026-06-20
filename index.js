@@ -21,7 +21,7 @@
             // Convenience function to setup a webcam
             const flip = false; // whether to flip the webcam
             webcam = new tmImage.Webcam(200, 200, flip); // width, height, flip
-            await webcam.setup({ facingMode: "environment" }); // request access to the webcam (use backcamera)
+            await webcam.setup({ facingMode: "environment" }); // request access to the webcam (brug bagkamera)
             await webcam.play();
             window.requestAnimationFrame(loop);
     

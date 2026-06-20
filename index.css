@@ -18,29 +18,22 @@ body{
 
 
 header{
-    background-color: paleturquoise;
+    background-color: green;
     display: grid;
     place-items: center;
-    position: fixed; /* Fix the header at the top */
-    top: 0; /* Align it to the top of the viewport */
-    width: 100%; /* Make it span the full width of the page */
-    z-index: 1000; /* Ensure it stays above other elements */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */
+    position: fixed; 
+    top: 0; 
+    width: 100vw; 
+    z-index: 1000; /* placer ovenpå de andre elementer */
 }
 
-
-main{
-    background-color:pink;
-    display: grid;
-    place-items:center;
-}
 
 footer{
     background-color: white;
 }
 
 .page{
-    padding-top: 4rem; /* Adjust this value to match the height of the header */
+    padding-top: 4rem; /* placer page under headeren */
     height: 100vh;
     overflow: hidden;
 }
@@ -48,64 +41,61 @@ footer{
 .Regler {
     height: 67%;
     overflow: scroll;
-    padding: 1rem; /* Add padding for better spacing */
-    background-color: #f9f9f9; /* Light background for better readability */
-    border: 1px solid #ccc; /* Add a subtle border */
-    border-radius: 8px; /* Rounded corners */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a soft shadow */
+    padding: 1rem; 
+    background-color: white; 
+    border: 1px solid grey; 
+    border-radius: 8px; /* afrundede hjørner */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
 }
 
 h3 {
-    font-size: 1.5rem; /* Increase font size for emphasis */
-    font-weight: bold; /* Make the text bold */
-    border-bottom: 2px solid #4caf50; /* Add a green underline */
-    margin-bottom: 1rem; /* Add spacing below */
-    padding-bottom: 0.5rem; /* Add spacing below the text */
+    font-size: 1.5rem; 
+    font-weight: bold; 
+    border-bottom: 2px solid green; 
+    margin-bottom: 1rem; 
+    padding-bottom: 0.5rem; 
 }
 
 h4 {
-    font-size: 1.2rem; /* Slightly smaller than h3 */
-    font-weight: bold; /* Make the text bold */
-    padding-left: 0.5rem; /* Add spacing between border and text */
-    margin-bottom: 0.5rem; /* Add spacing below */
+    font-size: 1.2rem; 
+    font-weight: bold; 
+    padding-left: 0.5rem; 
+    margin-bottom: 0.5rem;
 }
 
 
 
 p {
-    line-height: 1.6; /* Improve readability with line spacing */
-    font-size: 1rem; /* Adjust font size for better visibility */
-    color: #555; /* Use a softer dark color for text */
-    margin-bottom: 1rem; /* Add spacing between paragraphs */
+    line-height: 1.6; 
+    font-size: 1rem; 
+    color:black; 
+    margin-bottom: 1rem; 
 }
 
 nav {
-    background-color: #4caf50; /* Green background */
-    padding: 1rem; /* Add padding around the nav */
+    background-color: green; 
+    padding: 1rem; 
 }
 
 nav ul {
-    list-style: none; /* Remove bullet points */
-    display: flex; /* Display items in a row */
-    justify-content: center; /* Center the menu */
-    gap: 1rem; /* Add spacing between items */
+    list-style: none; /* fjern bullet points */
+    display: flex; /* få punkterne til at være på en række */
+    justify-content: center; 
+    gap: 1rem; 
     margin: 0;
     padding: 0;
 }
 
-nav ul li {
-    display: inline; /* Ensure items are inline */
-}
 
 nav ul li a {
-    text-decoration: none; /* Remove underline from links */
-    color: white; /* White text color */
-    font-weight: bold; /* Make text bold */
-    padding: 0.5rem 1rem; /* Add padding inside links */
-    border-radius: 4px; /* Rounded corners */
-    transition: background-color 0.3s; /* Smooth hover effect */
+    text-decoration: none; /* fjern understregning af link */
+    color: white; 
+    font-weight: bold; 
+    padding: 0.5rem 1rem; 
+    border-radius: 4px; /* runde hjørner */
+    transition: background-color 0.3s; /* hover effekt */
 }
 
 nav ul li a:hover {
-    background-color: #388e3c; /* Darker green on hover */
+    background-color:  dark green; 
 }
