@@ -35,11 +35,11 @@ footer{
 .page{
     padding-top: 4rem; /* placer page under headeren */
     height: 100vh;
-    overflow: hidden;
+    position: relative;
 }
 
 .Regler {
-    height: 67%;
+    height: 100vh;
     overflow: scroll;
     padding: 1rem; 
     background-color: white; 
